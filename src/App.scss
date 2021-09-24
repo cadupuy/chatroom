@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam", sans-serif;
+  box-sizing: border-box;
+  overscroll-behavior-y: none;
+}
+
+.chatroom {
+  display: flex;
+
+  .user {
+    width: 25%;
+    position: fixed;
+    overflow: scroll;
+    background-color: #fcfcfc;
+  }
+
+  .message {
+    margin-left: 25%;
+    width: 75%;
+    min-height: 100vh;
+    background-color: #fcfcfc;
+    background-image: url("./assets/img/wageGroup.svg");
+    background-position: center 0;
+    background-size: inherit;
+    background-repeat: repeat;
+    position: relative;
+    animation-name: toto;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  @keyframes toto {
+    to {
+      background-position: center 100px;
+    }
+  }
+}

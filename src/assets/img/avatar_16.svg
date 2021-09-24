@@ -1,0 +1,35 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<circle cx="128" cy="128" r="128" fill="#2A7D83"/>
+</mask>
+<g mask="url(#mask0)">
+<ellipse cx="140" cy="146" rx="156" ry="183" fill="#B8A7CE"/>
+<g clip-path="url(#clip0)">
+<circle cx="72" cy="149" r="20" fill="#68463C"/>
+<path d="M72 165H140V264.482C140 264.482 125.429 273 106 273C86.5714 273 72 259.09 72 259.09V165Z" fill="#68463C"/>
+<path d="M140 216.471C140 239.087 136.471 236.946 113.532 236.946C90.5936 236.946 80.0064 218.612 80.0064 195.997C80.0064 173.381 79.1358 153 97.6516 153C150 155 140 193.856 140 216.471Z" fill="#553329"/>
+<path d="M183.543 145.397C183.543 181.087 198.286 224.973 134 224.973C69.7135 224.973 69.7135 181.087 69.7135 145.397C59.9999 103 61.9998 53 128 53C194 53 183.543 109.707 183.543 145.397Z" fill="#836055"/>
+<rect x="144" y="165" width="12" height="8" rx="4" fill="#68463C"/>
+</g>
+<g clip-path="url(#clip1)">
+<g clip-path="url(#clip2)">
+<rect x="29.7144" y="241.408" width="146.939" height="84.4898" rx="33.0612" fill="#E05A33"/>
+</g>
+</g>
+<path d="M172 151C172 154.314 169.314 157 166 157V157C162.686 157 160 154.314 160 151L160 146.091C160 145.488 160.488 145 161.091 145L170.909 145C171.512 145 172 145.488 172 146.091L172 151Z" fill="#1B0B47"/>
+<path d="M132 151C132 154.314 129.314 157 126 157V157C122.686 157 120 154.314 120 151L120 146.091C120 145.488 120.488 145 121.091 145L130.909 145C131.512 145 132 145.488 132 146.091L132 151Z" fill="#1B0B47"/>
+<line x1="118" y1="147" x2="134" y2="147" stroke="#1B0B47" stroke-width="4" stroke-linecap="round"/>
+<line x1="158" y1="147" x2="174" y2="147" stroke="#1B0B47" stroke-width="4" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="256" height="256" fill="white" transform="translate(0 1)"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="235.102" height="235.102" fill="white" transform="translate(4 21)"/>
+</clipPath>
+<clipPath id="clip2">
+<rect width="235.102" height="235.102" fill="white" transform="translate(4 21)"/>
+</clipPath>
+</defs>
+</svg>
