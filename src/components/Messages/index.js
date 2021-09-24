@@ -23,9 +23,9 @@ const Messages = ({ socket, constraintsRef }) => {
   }, [messages]);
 
   useEffect(() => {
-    // const messagesListener = (messages) => {
-    //   setMessages(messages);
-    // };
+    const messagesListener = (messages) => {
+      setMessages(messages);
+    };
 
     const messageListener = (message) => {
       setMessages((prevMessages) => [...prevMessages, message]);
@@ -33,7 +33,7 @@ const Messages = ({ socket, constraintsRef }) => {
 
     // GET MESSAGES HISTORY
     socket.emit("getMessages");
-    // socket.on("messages", messagesListener);
+    socket.on("messages", messagesListener);
 
     // GET NEW MESSAGES
     socket.on("message", messageListener);
